@@ -224,14 +224,16 @@ input:checked:after {
 .footer-inner {
   background-color: var(--white);
   box-shadow: var(--shadow);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 25px;
-  right: 0;
-  left: 0;
 }
 .footer-item a {
   display: flex;
