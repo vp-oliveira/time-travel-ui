@@ -1,5 +1,5 @@
 /* Simple reset */
-body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {margin: 0} ul[role='list'], ol[role='list'] { list-style: none}html:focus-within {scroll-behavior: smooth}body {min-height: 100vh;text-rendering: optimizeSpeed;line-height: 1.5}a:not([class]) {text-decoration-skip-ink: auto}img,picture {max-width: 100%;display: block;}input, button, textarea, select {font: inherit;}
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {margin: 0} ul[role='list'], ol[role='list'] { list-style: none}html:focus-within {scroll-behavior: smooth}body {min-height: 100vh;text-rendering: optimizeSpeed;line-height: 1.5}a:not([class]) {text-decoration-skip-ink: auto}img,picture {max-width: 100%;display: block;}input, button, textarea, select {font: inherit;} ul, li{list-style: none; margin: 0; padding: 0;}
 
 /* Root components styles */
 :root {
@@ -87,6 +87,9 @@ input:checked:after {
 }
 .header-right svg:last-child {
   padding-left: 20px;
+}
+.header-right ul {
+  display: flex;
 }
 .header-right a {
   text-decoration: none;
