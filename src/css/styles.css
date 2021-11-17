@@ -112,7 +112,7 @@ input:checked:after {
   display: flex;
   border-radius: 8px;
   position: relative;
-  bottom: -120px;
+  bottom: -115px;
   filter: drop-shadow(var(--shadow)); 
 }
 .main-ticket-left-inner {
@@ -256,5 +256,6 @@ input:checked:after {
   }
   .main-ticket {
     margin: -60px 0;
+    bottom: -110px;
   }
 }
